@@ -59,7 +59,7 @@ No, the text box will use the title you gave your Xprofile field as described in
 
 = More Information =
 
-More informations (in portuguese): http://www.artewebdesign.com.br/
+More informations (in portuguese): http://www.artewebdesign.com.br/plugin-para-wordpress-buddypress-facebook/
 
 == Changelog ==
 
