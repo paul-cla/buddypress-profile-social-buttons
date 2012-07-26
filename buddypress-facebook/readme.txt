@@ -54,6 +54,10 @@ The group field title is the title that will be displayed right above the text b
 
 No, the text box will use the title you gave your Xprofile field as described in step 6 of the plugin installation instructions. The 'Mirror Profile Field Title' is used to fetch the members meta ( attached data ) though if the two differ, no data will be returned thus no button will display.
 
+== Screenshots ==
+
+1. Members/groups can display Facebook button
+
 == Changelog ==
 
 = 0.1 =
