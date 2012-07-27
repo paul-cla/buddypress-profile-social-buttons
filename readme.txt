@@ -5,6 +5,7 @@ Requires at least: 3.2.1
 Tested up to: 3.4.1
 BuddyPress: 1.5.6
 Stable tag: 0.2
+License: See readme.txt file.
 
 == Description ==
 
