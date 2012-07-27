@@ -24,7 +24,7 @@ $fbcj_username= xprofile_get_field_data(get_option('fbcj_member_label')); //fetc
 
 ?>
 
-<a class="bp-fb-profile" href="https://facebook.com/<?php echo $fbcj_username; ?>" ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-facebook/img/facebook_social.gif" /></a>
+<a class="bp-fb-profile" href="<?php echo $fbcj_username; ?>" ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-facebook/img/facebook_social.gif" /></a>
 
 <!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
 

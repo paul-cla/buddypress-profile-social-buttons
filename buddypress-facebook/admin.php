@@ -68,7 +68,7 @@ function bpfbcj_register_settings() {
 
 
 
-  register_setting( 'bpfbcj_plugin_options', 'fbcj-button-size' );
+//  register_setting( 'bpfbcj_plugin_options', 'fbcj-button-size' );
 
 
 
@@ -288,7 +288,7 @@ function bpfbcj_plugin_options() {
 
         <input type="checkbox" name="fbcj-members" value="1" <?php if (get_option('fbcj-members')==1) echo 'checked="checked"'; ?>/>
 
-        Let your members display their facebook button on their profile page.
+        Let your members display their Facebook button on their profile page.
 
       </td>
 
@@ -338,7 +338,7 @@ function bpfbcj_plugin_options() {
 
         <input type="checkbox" name="fbcj-groups" value="1" <?php if (get_option('fbcj-groups')==1) echo 'checked="checked"'; ?>/>
 
-        Let your groups display their Twitter follow button on the group's home page.
+        Let your groups display their Facebook button on the group's home page.
 
       </td>
 
@@ -415,7 +415,7 @@ function bpfbcj_plugin_options() {
 
 
 
-
+<!--
 <h3><?php _e('Display Settings.', 'bpfbcj') ?></h3>
 
 
@@ -533,7 +533,7 @@ function bpfbcj_plugin_options() {
 
 </table>
 
-
+-->
 
 <div id="bp-fb-button-preview" style="padding:0 10px 10px;margin-top:20px;border: 1px solid #CCC;">
 
@@ -588,9 +588,7 @@ function bpfbcj_plugin_options() {
 
 
 
-<p>If you enjoy the plugin and would like to keep up to speed on future features and updates, <b>follow me on twitter</b> or check out my blog - <a href="http://www.artewebdesign.com.br" target="_blank">Arte Webdesign</a></p>
-
-<p>Feel free to retweet the plugin to let your followers know and don't forget to give me a +K on <a href="http://klout.com/#/itsCharlkruger" target="_blank" title="Charl Kruger's Klout - opens in a new tab">Klout.com</a></p>
+<p>If you enjoy the plugin and would like to keep up to speed on future features and updates check out my blog - <a href="http://www.artewebdesign.com.br" target="_blank">Arte Webdesign</a></p>
 
 <!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://buddypress.org/community/groups/buddypress-twitter/home/" data-text="Let your #Buddypress members and groups add their twitter follow button to their profiles" data-via="itsCharlKruger">Tweet</a>
 

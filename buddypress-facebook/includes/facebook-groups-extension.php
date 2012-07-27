@@ -104,7 +104,7 @@ function show_field_in_headercj( $fbplus_field_meta ) {
 
 
 
-    $fbplus_field_meta .= '<a href="http://facebook.com/'. fbplus_field_onecj() .'"' .' ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-facebook/img/facebook_social.gif" /></a>' ?>
+    $fbplus_field_meta .= '<a href="'. fbplus_field_onecj() .'"' .' ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-facebook/img/facebook_social.gif" /></a>' ?>
 
 <!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>' --><?php ;
 
@@ -158,7 +158,7 @@ function show_field_before_headercj() {
 
 ?><?php echo fbplus_field_onecj();?>
 
-<a href="http://facebook.com/<?php echo fbplus_field_onecj();?>" ><img scr="../img/facebook_social.gif"></a>
+<a href="<?php echo fbplus_field_onecj();?>" ><img scr="../img/facebook_social.gif"></a>
 
 <!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
 
