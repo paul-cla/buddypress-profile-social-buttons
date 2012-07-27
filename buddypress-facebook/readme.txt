@@ -2,7 +2,7 @@
 Contributors: Samuel Costa
 Tags: buddypress, buddypress member, buddypress facebook, facebook
 Requires at least: 3.2.1
-Tested up to: 3.3.1 
+Tested up to: 3.4.1
 BuddyPress: 1.5.1
 Stable tag: 0.2
 
