@@ -3,12 +3,14 @@ Contributors: Samuel Costa
 Tags: buddypress, buddypress member, buddypress facebook, facebook
 Requires at least: 3.2.1
 Tested up to: 3.4.1
-BuddyPress: 1.5.1
+BuddyPress: 1.5.6
 Stable tag: 0.2
 
 == Description ==
 
-Let your members and groups show their Facebook Button on their profile page and group page. Using full Facebook URL (www.facebook.com/username), the plugin fetches your members and/or groups username and displays their button in the member's/group's header.
+Let your members and groups show their Facebook Button on their profile page and group page. 
+
+Using full Facebook URL (www.facebook.com/username), the plugin fetches your members and/or groups username and displays their button in the member's/group's header.
 
 If your BuddyPress community is active on Facebook, this plugin is a great tool for boosting communication both on and off your website.
 It's really easy to setup, even if you have an existing community:
