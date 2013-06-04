@@ -80,6 +80,9 @@ More informations (in portuguese): http://www.artewebdesign.com.br/plugin-para-w
 
 == Changelog ==
 
+= 0.3 =
+
+* Fixed the group freeze problem
 
 = 0.2 =
 
