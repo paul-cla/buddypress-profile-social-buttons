@@ -8,7 +8,7 @@ Plugin URI: http://wordpress.org/extend/plugins/buddypress-facebook/
 
 Description: Let your members and groups show their Facebook Button on their profile page and group page.
 
-Version: 0.2
+Version: 0.3
 
 Author: Samuel Costa
 
