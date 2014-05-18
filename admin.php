@@ -35,12 +35,15 @@
         <?php wp_nonce_field('update-options'); ?>
         <table class="form-table">
           <hr></hr>
+          <?php settings_fields( 'bppsb_plugin_profile_social_buttons_options' ); ?>
+          <?php do_settings_sections( 'bppsb_plugin_profile_social_buttons_options' ); ?>
           <?php 
           foreach (glob(dirname( __FILE__ ) . '/networks/*-admin.php') as $filename) {
               if (is_file($filename)) {
                   require $filename;
               }
           } ?>
+          <p><colored-text style="color: green;">Quick links:</colored-text> Visit <a href="<?php echo home_url(); ?>/wp-admin/admin.php?page=bp-profile-setup&group_id=1&mode=add_field" target="_blank" title="opens in a new tab">Add Field</a> to set up a new XProfile field or <a href="<?php echo home_url(); ?>/wp-admin/admin.php?page=bp-profile-setup" target="_blank" title="opens in a new tab">Extended Profile Fields</a> to edit a existing field</p>
           <p class="submit">
             <input type="submit" class="button-primary" value="<?php _e('Save Component Settings') ?>" />
           </p>
