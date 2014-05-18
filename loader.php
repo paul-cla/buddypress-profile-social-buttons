@@ -19,10 +19,9 @@ License:GPL2
 
 
 function bp_psb_init() {
-    foreach (scandir(dirname( __FILE__ ) . '/includes/networks/') as $filename) {
-        $path = dirname(__FILE__) . '/includes/networks/' . $filename;
-        if (is_file($path)) {
-            require $path;
+    foreach (glob(dirname( __FILE__ ) . '/networks/*-render.php') as $filename) {
+        if (is_file($filename)) {
+            require $filename;
         }
     } 
     require ( dirname( __FILE__ ) . '/admin.php' );
