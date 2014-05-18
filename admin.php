@@ -9,11 +9,13 @@
   }
 
   function bppsb_register_settings() {
-    //register our settings
-    register_setting( 'bppsb_plugin_profile_social_buttons_options', 'psb_facebook' );
+    foreach (scandir(dirname( __FILE__ ) . '/includes/admin/settings/') as $filename) {
+                $path = dirname(__FILE__) . '/includes/admin/settings/' . $filename;
+                if (is_file($path)) {
+                    require $path;
+                }
+            }//register our settings
 
-    //name to cerrelate to the members profile field label
-    register_setting( 'bppsb_plugin_profile_social_buttons_options', 'psb_facebook_label' );
   }
 
     function bppsb_plugin_profile_social_buttons_options() {
