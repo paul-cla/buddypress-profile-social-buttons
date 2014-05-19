@@ -9,7 +9,7 @@
 		$facebook_address= xprofile_get_field_data(get_option('psb_facebook_label')); //fetch the location field for the displayed user
 		  if ( $facebook_address != "" ) { // check to see the facebook field has data
 		?>
-		<a class="bp-fb-profile" href="<?php echo $facebook_address; ?>" ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-profile-social-buttons/img/facebook.gif" /></a>
+		<a class="bp-fb-profile" href="<?php echo $facebook_address; ?>" ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-profile-social-buttons/img/facebook.png" /></a>
 		<?php
 		}
 	}
