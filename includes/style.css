@@ -1,7 +1,8 @@
-.bp-fb-profile img {
+.bp-profile img {
     float: left;
+    padding: 4px 4px 0 0;
 }
 
-.bp-fb-profile {
+.bp-profile {
     display: block;
 }
