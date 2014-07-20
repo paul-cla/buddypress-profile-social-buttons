@@ -9,7 +9,7 @@
 		$linkedin_address= xprofile_get_field_data(get_option('psb_linkedin_label')); //fetch the location field for the displayed user
 		  if ( $linkedin_address != "" ) { // check to see the linkedin field has data
 		?>
-		<a class="bp-profile" href="<?php echo $linkedin_address; ?>" ><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-profile-social-buttons/img/linkedin.png" /></a>
+		<a class="bp-profile" href="<?php echo $linkedin_address; ?>" target="_blank"><img src="<?php bloginfo('wpurl'); ?>/wp-content/plugins/buddypress-profile-social-buttons/img/linkedin.png" /></a>
 		<?php
 		}
 	}
